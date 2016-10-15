@@ -21,7 +21,7 @@
 	<script>
 		//for the input element function
 		function convert_(val){
-			//console.log(val.getAttribute('id') + " " + val.value);
+			
 			var amt = (val.value!="") ? parseFloat(val.value) : 0;
 			var frm = document.getElementById("from_val").value;
 			var to = document.getElementById("to_val").value;
